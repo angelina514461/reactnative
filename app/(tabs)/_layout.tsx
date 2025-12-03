@@ -19,17 +19,48 @@ export default function TabLayout() {
       <Tabs.Screen
         name="index"
         options={{
-          title: 'Home',
+          title: 'Beranda',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="house.fill" color={color} />,
         }}
       />
       <Tabs.Screen
         name="explore"
         options={{
-          title: 'Explore',
+          title: 'Tentang',
           tabBarIcon: ({ color }) => <IconSymbol size={28} name="paperplane.fill" color={color} />,
         }}
       />
+
+      <Tabs.Screen
+        name="mahasiswa"
+        options={{
+          href: null,
+        }}
+      />
+
+      <Tabs.Screen
+        name="lokasi"
+        options={{
+          title: 'Lokasi',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="mappin.circle.fill" color={color} />,
+        }}
+      />
+
+      <Tabs.Screen
+        name="mapwebview"
+        options={{
+          href: null,
+        }}
+      />
+
+      <Tabs.Screen
+        name="gmap"
+        options={{
+          title: 'Peta',
+          tabBarIcon: ({ color }) => <IconSymbol size={28} name="pin.location" color={color} />,
+        }}
+      />
+
     </Tabs>
   );
 }
