@@ -141,5 +141,3 @@ Data sanggar tari diambil dari:
 
 ## 📌 Penutup
 README ini menjelaskan struktur, fitur, dan komponen utama aplikasi LANTARI sebagai aplikasi pemetaan sanggar tari berbasis digital.
-
-README ini menjelaskan struktur, fitur, dan komponen utama aplikasi LANTARI sebagai aplikasi pemetaan sanggar tari berbasis digital. Jika ingin dibuatkan dokumentasi versi PDF, Markdown GitHub, atau ditambah diagram arsitektur—silakan beri tahu!
